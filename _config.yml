@@ -1,0 +1,15 @@
+title: comexr
+email: info@comexr.com
+description: >- 
+  This project does stuff.
+baseurl: ""
+url: "https://comexr.github.io"
+github_username: comexr
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+exclude:
+  - tools/
+  - doc/
