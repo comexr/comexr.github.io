@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Comexr Website
+title: Comexr repo
 ---
 This repository provides the following packages:
 - [lwl-drivers](https://github.com/comexr/lwl-drivers)

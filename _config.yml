@@ -1,7 +1,7 @@
 title: comexr
 email: info@comexr.com
 description: >- 
-  This project does stuff.
+  Provides drivers and other packages for laptops sold by LaptopWithLinux.
 baseurl: ""
 url: "https://comexr.github.io"
 github_username: comexr
