@@ -25,11 +25,11 @@ sudo apt install -y <packages>
 ### Fedora
 Import the [public key](comexr.asc):
 ```
-sudo rpmkeys --import {{ site.url }}/comexr.asc
+sudo rpm --import {{ site.url }}/comexr.asc
 ```
 Add the repository:
 ```
-printf "[{{ site.title }}]\nname={{ site.title }} Repo\nbaseurl={{ site.url }}/rpm\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey={{ site.url }}/{{ site.title }}.asc" | sudo tee -a /etc/yum.repos.d/comexr.repo
+sudo dnf config-manager --add-repo {{ site.url }}/comexr.repo
 ```
 Install the desired packages:
 ```
@@ -39,11 +39,11 @@ sudo dnf install -y <packages>
 ### OpenSUSE
 Import the [public key](comexr.asc):
 ```
-sudo rpmkeys --import {{ site.url }}/comexr.asc
+sudo rpm --import {{ site.url }}/comexr.asc
 ```
 Add the repository:
 ```
-printf "[{{ site.title }}]\nname={{ site.title }} Repo\nbaseurl={{ site.url }}/rpm\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey={{ site.url }}/{{ site.title }}.asc" | sudo tee -a /etc/zypp/repos.d/comexr.repo
+sudo zypper addrepo {{ site.url }}/comexr.repo
 ```
 Install the desired packages:
 ```
