@@ -1,0 +1,6 @@
+[comexr]
+name=comexr Repo
+baseurl=https://comexr.github.io/rpm
+enabled=1
+gpgcheck=1
+gpgkey=https://comexr.github.io/comexr.asc
