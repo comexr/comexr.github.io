@@ -31,7 +31,7 @@ sudo rpm --import {{ site.url }}/comexr.asc
 ```
 Add the repository:
 ```
-sudo dnf config-manager --add-repo {{ site.url }}/comexr.repo
+sudo dnf config-manager addrepo --from-repofile={{ site.url }}/comexr.repo
 ```
 Install the desired packages:
 ```
