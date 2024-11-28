@@ -4,7 +4,7 @@ title: Comexr repo
 ---
 This repository provides the following packages:
 - [lwl-drivers](https://github.com/comexr/lwl-drivers)
-- [yt6801 - ethernet drivers] (https://github.com/comexr/yt6801)
+- [yt6801 - ethernet drivers](https://github.com/comexr/yt6801)
 Instructions to install these are on the corresponding pages.
 
 ## Add repository
