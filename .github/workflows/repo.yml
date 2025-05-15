@@ -71,7 +71,7 @@ jobs:
           .github/scripts/build_repos.sh
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@latest
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
     environment:
