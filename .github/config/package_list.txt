@@ -1,2 +1,3 @@
 comexr/lwl-drivers
 comexr/yt6801
+comexr/lwl-x6-keyboard
